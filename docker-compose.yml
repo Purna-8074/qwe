@@ -16,7 +16,7 @@ services:
     image: purna8074/docker-back:latest
     container_name: springboot
     ports:
-      - "2001:2000"
+      - "2025:2000"
     depends_on:
       - mysqldb
     restart: on-failure
